@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/haroon/calisthenics/src/CalisthenicsApi/CalisthenicsApi.csproj": {}
+    "/Users/haroon/calisthenics/src/backend/CalisthenicsApi.csproj": {}
   },
   "projects": {
-    "/Users/haroon/calisthenics/src/CalisthenicsApi/CalisthenicsApi.csproj": {
+    "/Users/haroon/calisthenics/src/backend/CalisthenicsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/haroon/calisthenics/src/CalisthenicsApi/CalisthenicsApi.csproj",
+        "projectUniqueName": "/Users/haroon/calisthenics/src/backend/CalisthenicsApi.csproj",
         "projectName": "CalisthenicsApi",
-        "projectPath": "/Users/haroon/calisthenics/src/CalisthenicsApi/CalisthenicsApi.csproj",
+        "projectPath": "/Users/haroon/calisthenics/src/backend/CalisthenicsApi.csproj",
         "packagesPath": "/Users/haroon/.nuget/packages/",
-        "outputPath": "/Users/haroon/calisthenics/src/CalisthenicsApi/obj/",
+        "outputPath": "/Users/haroon/calisthenics/src/backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/haroon/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalisthenicsApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+816ba30638e6799219428e4b30c1819837306889")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56c7ff42faea3750f832808c9b2eeb9b2adce5d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalisthenicsApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalisthenicsApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

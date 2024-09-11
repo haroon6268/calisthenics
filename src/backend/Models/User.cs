@@ -1,7 +1,6 @@
 using MongoDB.Bson.Serialization.Attributes;
-using MongoDB.Bson
-
-namespace CalisthenicsApi;
+using MongoDB.Bson;
+namespace CalisthenicsApi.Models;
 public class User{
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
@@ -11,4 +10,6 @@ public class User{
     public string UserName{get;set;} = null!;
     public string Password{get;set;} = null!;
     public string Email{get;set;} = null!;
+
+    public List<string> Workouts{get;set;} = new List<string>();
 }
